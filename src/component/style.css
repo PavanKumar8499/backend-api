@@ -1,0 +1,62 @@
+.todo-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    /* Separates left and right content */
+    align-items: center;
+    /* Aligns items vertically in the center */
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    margin-left: 10px;
+    /* Adds space between checkbox and text */
+}
+
+.check-icon {
+    margin-right: 10px;
+    color: green;
+}
+
+.right-content {
+    display: flex;
+}
+
+.edit-icon,
+.delete-icon {
+    margin-left: 10px;
+    /* Adds space between buttons */
+    cursor: pointer;
+}
+
+.edit-icon {
+    color: #007bff;
+
+}
+
+.delete-icon {
+    color: #dc3545;
+}
+
+.todo-tasks {
+    color: black;
+}
+
+.tasksChecked {
+    color: rgba(250, 5, 5, 0.85);
+    text-decoration: line-through;
+}
